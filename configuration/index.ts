@@ -1,4 +1,4 @@
-export const serverAPIPort = 3232;
+export const serverAPIPort = process.env.PORT || 3232;
 export const host = 'http://localhost'
 export const APIDomain = 'tickets';
 export const APIPath = `/api/${APIDomain}`;
